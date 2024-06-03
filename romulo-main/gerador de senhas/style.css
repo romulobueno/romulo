@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&family=Silkscreen:wght@400;700&display=swap');
+:root{
+    --cor-da-letra:rgb(219, 131, 131);
+    --cor-de-fundo:rgb(163, 83, 209);
+    --fundo-senha:rgb(74, 92, 74);
+    --fundo-texto:rgb(229, 243, 229);
+    --borda:rgb(36, 58, 36);
+    --fonte:"Honk","system-ui";
+    --fonte2:"Silkscreen","sans-serif"
+}
+
+body{
+    color:var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+    font-family: var(--fonte2);
+}
+.titulo-principal{
+    font-size: 130px;
+    font-family: var(--fonte);
+   
+}
+.titulo-secundario{
+    font-size: 40px;
+    font-family: var(--fonte2);
+    color:whitesmoke;
+}
