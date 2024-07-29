@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Pacifico&family=Silkscreen:wght@400;700&display=swap');
+:root{
+    --cor-da-letra:rgb(0, 0, 0);
+    --cor-de-fundo:rgb(163, 83, 209);
+    --fundo-senha:rgb(218, 214, 5);
+    --fundo-texto:rgb(229, 243, 229);
+    --borda:rgb(0, 0, 0);
+    --fonte:"Honk","system-ui";
+    --fonte2:"Silkscreen","sans-serif"
+}
+.conteudo{
+
+    text-align: center;
+    font-size: 35px;
+    }
+    
+    .img{
+    
+    width: 80px;
+    }
+
+    .conteudo-titulo{
+        text-aling:center;
+        margin-top:80px;
+    }
+    
+    .conteudo-senha{
+        margin-top:40px;
+        background: var(--fundo-senha);
+        padding:100px;
+        border-bottom:25px solid var(--borda);
+    }
+
+body{
+    color:var(--cor-da-letra);
+    background-color:var(--cor-de-fundo);
+    font-family: var(--fonte2);
+}
+.titulo-principal{
+    font-size: 75px;
+    font-family: var(--fonte);
+    color: yellow;
+   
+}
+.titulo-secundario{
+    font-size: 20px;
+    font-family: var(--fonte2);
+    color:rgb(0, 0, 0);
+}
+#campo-senha{
+    background-color: var(--fundo-senha);
+    border:;
+    color:var(--letra);
+    width:70%;
+}
