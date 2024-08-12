@@ -1,26 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> 
+<html lang="pt-br">
 <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gerador de senhas</title>
+    <title>Senhas</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
-<body>
+<body> 
     <section class="conteudo">
-       <dive class="conteudo-titulo">
-           <img src="unlock.png">
-           <h2 class="titulo-principal"> Gerador de senhas</h2>
-           <h3 class="titulo-secundario"> gere senhas (definitivamente não é roubo) hehehehehehe :)</h3>
+        <div class="conteudo-titulo">
+            <img class="img" src="Cadeado.png">
+            <h2 class="titulo-principal titulo"> Gerador de senhas  </h2>
+            
+            <h3 class="titulo-secundario titulo"> Gere senhas aleatorias, definitivamente não é roubo heehhehehe :) </h3>
         </div>
         <div class="conteudo-senha">
-            <label for="senha">Senha</label>
-        <input name="senha" tipe="text" id="campo-senha">
+             <label for="senha">Senha</label>
+             <input name="senha" type="password" id="campo-senha"></input>
+             
         </div>
-    </section>
-    
-   
+        <div class="parametro">
+              <h3 class="paramentro-titulo">mude sua senha</h3>
+            <div class="parametro-coluna-senha">
+            
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha-titulo"> número caracteres</h4>
+                    <div class="parametro-senha-botoes">
+                        <button class="parametro-senha-botao">-</button>
+                        <p class="parametro-senha-texto">12</p>
+                        <button class="parametro-senha-botao">+</button>
+                    </div>
+                </div>
+                <div class="parametro-senha">
+                <h4 class="parametro-senha-titulo">caracteres da senha</h4>
+                <div class="parametro-senha-checkbox">
+                    <input name="maiusculo" type="checkbox" class="checkbox">
+                    <label for="maiusculo"> letras maiusculo </label>
+                </div>
+                <div class="parametro-senha-checkbox">
+                    <input name="maiusculo" type="checkbox" class="checkbox">
+                    <label for="maiusculo"> letras minusculos </label>
+                </div>
+                <div class="parametro-senha-checkbox">
+                    <input name="maiusculo" type="checkbox" class="checkbox">
+                    <label for="maiusculo"> Numeros </label>
+                </div>
+                <div class="parametro-senha-checkbox">
+                    <input name="maiusculo" type="checkbox" class="checkbox">
+                    <label for="maiusculo"> Simbolos </label>
+                </div>
+            </div>
+      </div>
+</section>
     
 </body>
 </html>
